@@ -100,6 +100,13 @@ The results are shown in the figures below:
 
 <img src="images/nn_approximate_e_1000.svg" alt="2_40000.png" style="zoom:50%;" />
 
+## 3
+The code for this problem can be found on [hopﬁeld.ipynb](https://github.com/tavasolireza/Neural-Networks-CSCE-790/blob/main/HW2/Part%20B/3/hopﬁeld.ipynb)
+
+The results are shown in the figures below:
+<img src="images/hopﬁeld.svg" alt="hop" />
+
+
 ### e
 
 Increasing the number of neurons in the hidden layers can have different effects depending on the complexity of the dataset and the task at hand. In some cases, it might improve the performance by allowing the network to learn more complex representations. However, it could also lead to overfitting, especially when the dataset is small, as a larger model has more parameters and, hence, more capacity to memorize the training data. In this case, I observerd no siginificant improvement. The figure below shows my findings.
