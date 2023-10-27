@@ -80,11 +80,25 @@ The results are shown in the figures below:
 <div style="page-break-after: always;"></div>
 
 ## 2
+The code for this problem can be found on [approximate.ipynb](https://github.com/tavasolireza/Neural-Networks-CSCE-790/blob/main/HW2/Part%20B/2/approximation.ipynb)
 
+The results are shown in the figures below:
 
+- **Training Error vs. Epoch**
 
+<img src="images/error_vs_epoch_p2_10.svg" alt="2_100.png" style="zoom:49%;" /> <img src="images/error_vs_epoch_p2_100.svg" alt="2_5000.png" style="zoom:49%;" />   
 
+<img src="images/error_vs_epoch_p2_200.svg" alt="2_20000.png" style="zoom:49%;" /> <img src="images/error_vs_epoch_p2_400.svg" alt="2_30000.png" style="zoom:49%;" /> 
 
+<img src="images/error_vs_epoch_p2_1000.svg" alt="2_40000.png" style="zoom:50%;" />
+
+- **NN Output**
+
+<img src="images/nn_approximate_e_10.svg" alt="2_100.png" style="zoom:49%;" /> <img src="images/nn_approximate_e_100.svg" alt="2_5000.png" style="zoom:49%;" />   
+
+<img src="images/nn_approximate_e_200.svg" alt="2_20000.png" style="zoom:49%;" /> <img src="images/nn_approximate_e_400.svg" alt="2_30000.png" style="zoom:49%;" /> 
+
+<img src="images/nn_approximate_e_1000.svg" alt="2_40000.png" style="zoom:50%;" />
 
 ### e
 
