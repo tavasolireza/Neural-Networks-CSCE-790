@@ -32,7 +32,7 @@
 
 - Local minima are rarely a big issue, as extra connections provide paths around barriers. Poor minima mainly occur in minimally connected networks.
 
-<div style="page-break-after: always;"></div>
+
 
 ## 2
 
@@ -66,7 +66,7 @@
 
 - Computing Hessian eigenvectors without the full matrix can estimate optimal learning rates. The power method iteration or running averages work.
 
-<div style="page-break-after: always;"></div>
+
 
 # Part B
 
@@ -77,7 +77,7 @@ The results are shown in the figures below:
 <img src="images/error_vs_epoch_1.svg" alt="e_v_e_1.png" />
 
 <img src="images/decision_1.svg" alt="db1.png" />
-<div style="page-break-after: always;"></div>
+
 
 ## 2
 The code for this problem can be found on [approximate.ipynb](https://github.com/tavasolireza/Neural-Networks-CSCE-790/blob/main/HW2/Part%20B/2/approximation.ipynb)
@@ -90,7 +90,10 @@ The results are shown in the figures below:
 
 <img src="images/error_vs_epoch_p2_200.svg" alt="2_20000.png" style="zoom:49%;" /> <img src="images/error_vs_epoch_p2_400.svg" alt="2_30000.png" style="zoom:49%;" /> 
 
-<img src="images/error_vs_epoch_p2_1000.svg" alt="2_40000.png" style="zoom:50%;" />
+<img src="images/error_vs_epoch_p2_1000.svg" alt="2_40000.png" style="zoom:49%;" />
+
+
+
 
 - **NN Output**
 
@@ -98,15 +101,16 @@ The results are shown in the figures below:
 
 <img src="images/nn_approximate_e_200.svg" alt="2_20000.png" style="zoom:49%;" /> <img src="images/nn_approximate_e_400.svg" alt="2_30000.png" style="zoom:49%;" /> 
 
-<img src="images/nn_approximate_e_1000.svg" alt="2_40000.png" style="zoom:50%;" />
-<div style="page-break-after: always;"></div>
+<img src="images/nn_approximate_e_1000.svg" alt="2_40000.png" style="zoom:49%;" />
 
+
+<div style="page-break-after: always;"></div>
 ## 3
 The code for this problem can be found on [hopﬁeld.ipynb](https://github.com/tavasolireza/Neural-Networks-CSCE-790/blob/main/HW2/Part%20B/3/hopﬁeld.ipynb)
 
 The results are shown in the figures below:
 <img src="images/hopﬁeld.svg" alt="hop" />
-<div style="page-break-after: always;"></div>
+
 
 ## 4
 The code for this problem can be found on [transformer.ipynb](https://github.com/tavasolireza/Neural-Networks-CSCE-790/blob/main/HW2/Part%20B/4/transformer.ipynb)
@@ -187,7 +191,6 @@ The code for this problem can be found on [transformer.ipynb](https://github.com
 
 The Transformer model processes input sequences and produces output sequences by combining the functionalities of its components, ensuring attention is paid to relevant parts of the input and capturing complex relationships between input and output.
 
-<div style="page-break-after: always;"></div>
 ## 5
 ***a)*** The code for the vanilla GAN can be found on [vanilla_GAN.ipynb](https://github.com/tavasolireza/Neural-Networks-CSCE-790/blob/main/HW2/Part%20B/5/vanilla_GAN.ipynb)
 
@@ -260,7 +263,7 @@ The Transformer model processes input sequences and produces output sequences by
   3. Display generated images and log the training status.
   4. Save model checkpoints.
 
-<div style="page-break-after: always;"></div>
+
 
 ***b)***  The code for the DC GAN can be found on [DC_GAN.ipynb](https://github.com/tavasolireza/Neural-Networks-CSCE-790/blob/main/HW2/Part%20B/5/DC_GAN.ipynb)
 
@@ -332,23 +335,23 @@ The Transformer model processes input sequences and produces output sequences by
   3. Display generated images and log the training status.
   4. Save model checkpoints.
 
-<div style="page-break-after: always;"></div>
+
 
 # Part C
 ## 1
 <img src="images/neural_part_c-1.jpg" alt="c1" style="zoom:90%;" />
 
-<div style="page-break-after: always;"></div>
+
 
 ## 2
 <img src="images/neural_part_c-2.jpg" alt="c2" style="zoom:90%;" />
 
-<div style="page-break-after: always;"></div>
+
 
 ## 3
 <img src="images/neural_part_c-3.jpg" alt="c3" style="zoom:90%;" />
 
-<div style="page-break-after: always;"></div>
+
 
 
 ## 4
