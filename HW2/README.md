@@ -335,5 +335,73 @@ The Transformer model processes input sequences and produces output sequences by
 <div style="page-break-after: always;"></div>
 
 # Part C
-
 ## 1
+<img src="images/neural_part_c-1.jpg" alt="c1" style="zoom:90%;" />
+
+<div style="page-break-after: always;"></div>
+
+## 2
+<img src="images/neural_part_c-2.jpg" alt="c2" style="zoom:90%;" />
+
+<div style="page-break-after: always;"></div>
+
+## 3
+<img src="images/neural_part_c-3.jpg" alt="c3" style="zoom:90%;" />
+
+<div style="page-break-after: always;"></div>
+
+
+## 4
+
+1. Let  $$x$$ be the input vector.
+2. Let $$W_1$$ be the weight matrix connecting the input layer to the hidden layer, and $$b_1$$ be the bias vector for the hidden layer.
+3. Let $$z_1$$ be the weighted input to the hidden layer, and $$h$$ be the output of the hidden layer.
+4. Let $$W_2$$ be the weight matrix connecting the hidden layer to the output layer, and $$b_2$$ be the bias vector for the output layer.
+5. Let $$z_2$$ be the weighted input to the output layer, and $$y$$ be the output of the network.
+6. Let $$t $$ be the target output.
+7. The loss function $$L$$ is defined as the mean squared error between the predicted output $$y$$ and the target output $$t$$: 
+$$L = \frac{1}{2}(y - t)^2$$
+
+The forward propagation:
+
+1. $$z_1 = W_1 x + b_1$$
+2. $$h = \tanh(z_1)$$
+3. $$z_2 = W_2 h + b_2$$
+4. $$y = \tanh(z_2)$$
+
+The backpropagation algorthm:
+
+1. **Compute the Gradient of the Loss with Respect to the Output:**
+$$\frac{\partial L}{\partial y} = y - t $$
+
+2. **Gradient of the Loss with Respect to $$ z_2 $$:**
+The derivative of the tanh function is:
+$$\frac{d}{dz} \tanh(z) = 1 - \tanh^2(z)$$
+So, 
+$$\frac{\partial L}{\partial z_2} = \frac{\partial L}{\partial y} \times \frac{\partial y}{\partial z_2} = (y - t) \times (1 - y^2)$$
+
+3. **Gradient of the Loss with Respect to $$W_2$$ and $$b_2$$:**
+$$\frac{\partial L}{\partial W_2} = \frac{\partial L}{\partial z_2} \times h $$
+$$\frac{\partial L}{\partial b_2} = \frac{\partial L}{\partial z_2}$$
+
+4. **Gradient of the Loss with Respect to $$h$$:**
+$$\frac{\partial L}{\partial h} = \frac{\partial L}{\partial z_2} \times W_2$$
+
+5. **Gradient of the Loss with Respect to $$z_1$$:**
+$$\frac{\partial L}{\partial z_1} = \frac{\partial L}{\partial h} \times \frac{\partial h}{\partial z_1} = \frac{\partial L}{\partial h} \times (1 - h^2)$$
+
+6. **Gradient of the Loss with Respect to $$W_1$$ and $$b_1$$:**
+$$\frac{\partial L}{\partial W_1} = \frac{\partial L}{\partial z_1} \times x$$
+$$\frac{\partial L}{\partial b_1} = \frac{\partial L}{\partial z_1}$$
+
+The weight update rules:
+
+1. $$W_1 = W_1 - \eta \times \frac{\partial L}{\partial W_1}$$
+2. $$b_1 = b_1 - \eta \times \frac{\partial L}{\partial b_1}$$
+3. $$W_2 = W_2 - \eta \times \frac{\partial L}{\partial W_2}$$
+4. $$ b_2 = b_2 - \eta \times \frac{\partial L}{\partial b_2}$$
+
+Where $$\eta$ is the learning rate.
+
+
+
